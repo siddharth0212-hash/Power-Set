@@ -6,7 +6,7 @@ def  totalFlips(number1, number2):
      flips = 0
 
      # Get the last bit of both numbers and check of both are same if yes no flip required else flip is required
-     while(number1 > 0 or number 2 > 0):
+     while (number1 > 0 or number 2 > 0):
            t1 = (number 1 & 1)
            t2 = (number 2 & 1)
            if(t1 != t2):
